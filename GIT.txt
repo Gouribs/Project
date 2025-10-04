@@ -1,0 +1,36 @@
+Steps to repeat
+
+Check, if git is installed with git --version
+
+If not, download git from https://git-scm.com/ and install it.
+
+Configure username and email address:
+
+git config --global user.name "Your Username"
+git config --global user.email "your.email@example.com"
+Download VSCode from https://code.visualstudio.com/ and install it.
+
+Download sourcetree from http://sourcetreeapp.com/ and install it.
+
+
+Terminology
+
+A repository is like a folder, and you work with it as if it were a simple folder. However, it also contains information about all changes made to all files in this folder.
+
+A commit is a record of a change in the repository. It allows you to track the evolution of a file. So, a Git repository, storing initial files and all changes, allows you to view the state of the repository at any moment in time.
+
+
+
+Steps to repeat
+
+Create a folder for your project and open it in terminal/command line.
+
+Initialize repository in the folder with git init.
+
+Add a file to the folder (todolist.txt for example).
+
+Stage added file with git add todolist.txt.
+
+Commit changes with git commit -m “name of commit”.
+
+
